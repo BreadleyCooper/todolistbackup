@@ -1,0 +1,14 @@
+TASKS
+
+//  - implement local storage
+            ISSUES:
+            None? 
+            Note here if more bugs are found
+
+            
+//  - mobile friendly
+//  - add overflow for todo lists and project lists
+
+NOTES for readme
+// Issue with form validation - fixed by adding some js logic to check that the form is valid before running the function to toggle the form on or off
+// It would be better is the code for rendering the todo list was in a seperate function rather than repeated on the mainContent module
