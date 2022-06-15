@@ -39,6 +39,7 @@ function todoForm (){
     const formNameInput = document.createElement("input")
     formNameInput.setAttribute("type", "text")
     formNameInput.setAttribute("id", "formName")
+    formNameInput.setAttribute("maxlength", "30")
     formElementName.append(formNameLabel, formNameInput);
     
     // form 'Project' container
