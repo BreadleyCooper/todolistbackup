@@ -2,6 +2,8 @@
 
 A todo app to create a list of ToDos and associated projects
 
+*I had a git issue towards the end of the project which required creating a new repo. For previous commits please see my initial repo [here](https://github.com/BreadleyCooper/todolist)
+
 ## Description
 
 
