@@ -2,7 +2,7 @@
 
 import { clearProjectList, refreshProjectList } from "."
 import { storeProjects, storeTodos } from "./localStorage"
-import updateMain from "./mainContent"
+import updateMain, { clearTodos } from "./mainContent"
 import Todo, { todoArray } from "./todoObjects"
 import { projectArray } from "./todoObjects"
 
@@ -111,6 +111,7 @@ function todoForm (){
         addTodo();
         toggleForm();
         removeForm();
+        clearTodos();
         updateMain();
         storeTodos();
         console.log(todoArray)
