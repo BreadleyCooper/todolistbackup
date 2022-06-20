@@ -267,9 +267,12 @@ h2 {
 }
 
 @media screen and (max-width: 717px){
+  html {
+    height: 100%;
+    background: linear-gradient(to bottom right, #00C0ff, #4218B8) fixed;
+  }
   body {
     font-size: 12px;
-    background-image: linear-gradient(to bottom right, #00C0ff, #4218B8);
   }
   .container {
     display: grid;
